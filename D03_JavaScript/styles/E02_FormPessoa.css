@@ -1,0 +1,17 @@
+﻿
+.Required {
+    color: red;
+}
+
+label {
+    display:inline-block;
+    width:70px;
+    text-align:left;
+}
+
+.action_btn {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+

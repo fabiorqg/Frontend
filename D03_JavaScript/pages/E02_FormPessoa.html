@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Form Pessoa</title>
+    <script src="../scripts/E02_FormPessoa.js"></script>
+    <link href="../styles/E02_FormPessoa.css" rel="stylesheet" />
+</head>
+
+<body onload="LoadForm();">
+    <section>
+        <form name="formPessoa">
+            <table>
+                <tr>
+                    <td>Nome <span class="Required">*</span></td>
+                    <td>
+                        <input id="inputNome"
+                               type="text"
+                               maxlength="100"
+                               size="50"
+                               onblur="ValidateNome();">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email <span class="Required">*</span></td>
+                    <td>
+                        <input id="inputEmail"
+                               type="email"
+                               maxlength="100"
+                               size="50"
+                               onblur="ValidateEmail();" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Telefone <span class="Required">*</span></td>
+                    <td>
+                        <input id="inputTelefone"
+                               type="tel"
+                               maxlength="100"
+                               size="50"
+                               onblur="ValidateEmail();" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>NIF <span class="Required">*</span></td>
+                    <td>
+                        <input id="inputNIF"
+                               type="text"
+                               maxlength="100"
+                               size="50"
+                               onblur="ValidateNIF();" />
+                    </td>
+                </tr>
+
+            </table>
+
+            <br />
+
+            <div class="action_btn">
+                <input id="buttonValidate" type="button" value="Validate" onclick="ValidateForm()">
+                <input id="buttonReset" type="reset" value="Reset" onclick="Limpar()">
+            </div>
+
+            <p id="pMessage"></p>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿/*Import reset*/
+@import "ResetSimpleCSS.css";
+
+.split {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+}
+
+.left {
+    left:0;
+    background-color: #236A8A;
+}
+
+.right {
+    right:0;
+    background-color: #B31B1B;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.center img {
+    width: 150px;
+}

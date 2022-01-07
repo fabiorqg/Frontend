@@ -1,0 +1,35 @@
+﻿table {
+    border-spacing: 0.5rem;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+    td:nth-child(1) {
+        background-color: hsl(150, 86%, 45%);
+    }
+
+    td:nth-child(2) {
+        background-color: coral;
+    }
+
+    td:nth-child(3) {
+        background-color: rgb(0, 89, 255);
+    }
+
+    td:nth-child(4) {
+        background-color: hsl(325, 80%, 50%);
+    }
+
+    td:nth-last-of-type(1) {
+        background-color: sienna;
+    }
+
+    td:nth-last-child(2) {
+        background-color: rgb(226, 183, 43);
+    }
+
+tr:last-child td:last-child {
+    background-color: violet;
+}

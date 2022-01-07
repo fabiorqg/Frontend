@@ -1,0 +1,29 @@
+﻿/*Import reset*/
+@import "ResetSimpleCSS.css";
+
+.container {
+    display:flex;
+    background-color:coral;
+}
+
+
+.container > div { /* Só as divs cujo parent seja 1 container*/
+    margin: 20px;
+    padding: 50px;
+    font-size: 2rem;
+}
+
+.div1 {
+    width: 25%;
+    background-color: indigo;
+}
+
+.div2 {
+    width: 50%;
+    background-color:burlywood;
+}
+
+.div3 {
+    width: 25%;
+    background-color:cornflowerblue;
+}

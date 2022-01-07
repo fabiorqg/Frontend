@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <title>Calculatora Simples V1</title>
+    <script src="../Script/E03_JS_Calculadora_V1.js"></script>
+    <link href="../Styles/E03_JS_Calculadora_V1.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="titulo">Calculadora Simples</h1>
+
+    <section>
+
+        <table class="split left">
+
+            <tr>
+                <td>Valor 1 <input type="text" id="valor1"></td>
+            </tr>
+
+            <tr>
+                <td>Valor 2 <input type="text" id="valor2"></td>
+            </tr>
+
+            <tr class="operadores">
+                <td>Operação </td>
+                <td><input type="submit" onClick="soma()" value="+"></td>
+                <td><input type="submit" onClick="subtracao()" value="-"></td>
+                <td><input type="submit" onClick="multiplicacao()" value="*"></td>
+                <td><input type="submit" onClick="divisao()" value="/"></td>
+
+            </tr>
+
+            <tr>
+                <td>Resultado <input type="text" id="Resultado"></td>
+            </tr>
+
+        </table>
+
+        <div class="imagem">
+            <img src="../Content/calculadora.jpg" alt="imagem calculadora simples" />
+        </div>
+
+    </section>
+</body>
+</html>

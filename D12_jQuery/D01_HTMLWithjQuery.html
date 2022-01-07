@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>HTML with jQuery</title>
+
+    <link href="Style/D01_HTMLWithjQuery.css" rel="stylesheet" />
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+    <script>
+
+        
+        $(document).ready(function ()
+        {
+
+            // Função anónima :  só pode ter uma função anónima
+            // dentro desta função, podemos chamar as funções que quisermos
+
+            // mudar e repor a cor de fundo do h2
+            $("#h2Title").mouseenter(function () { $(this).addClass("BackgroundColor") });
+            $("#h2Title").mouseleave(function () { $(this).removeClass("BackgroundColor") });
+
+            // esconder os "Ps"
+            $("p").click(function () {$(this).hide() });
+
+
+        })
+
+    </script>
+
+
+
+</head>
+
+<body>
+    <h2 id="h2Title">jQuery - JavaScript Library</h2>
+    <br />
+    <a href="https://www.w3schools.com/jquery/default.asp" target="_blank"> W3 Schools - jQuery Tutorial</a>
+    <br />
+    <br />
+    <p>Click to hide</p>
+    <br />
+
+    <p>Hide again</p>
+    <br />
+</body>
+
+</html>

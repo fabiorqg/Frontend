@@ -1,0 +1,68 @@
+﻿/* Element Selector*/
+p {
+    font-family: Verdana;
+    font-size: 20px;
+    color: olivedrab;
+    /*color: #ff6a00;*/
+    /*color: rgb (172, 0, 230);*/
+    /*color: hsl(102 100% 50%);*/
+}
+
+header,section {
+    background-color:darkgrey;
+}
+
+section > article {
+    background-color:goldenrod;
+}
+
+section + article {
+     background-color: black;
+    }
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    color: crimson;
+}
+
+p::first-letter{
+    font-size: 24px;
+    font-weight: bolder;
+    font-style:italic;
+}
+.formatarTexto01{
+    color: crimson;
+    text-decoration: dotted underline;
+}
+
+
+/* Class Selector*/
+.fomatarNegrito {
+    font-weight: bold;
+}
+
+.fomatarItalico {
+    font-style: italic;
+}
+
+.fomatarSublinhado {
+    text-decoration: underline;
+}
+
+.formatarParagrafo01 {
+    font-family: 'Courier New';
+    font-size: 30px;
+    color: darkslateblue;
+}
+
+/*ID Selector*/
+
+#pFormatoID {
+    font-size: 24px;
+    color:aqua;
+}

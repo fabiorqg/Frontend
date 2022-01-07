@@ -1,0 +1,21 @@
+﻿.titulo {
+    color: red;
+    position: static;
+}
+
+.left {
+    left: 0;
+    display: inline-block;
+    float: left;
+}
+
+.operadores {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.imagem {
+    width: 300px;
+    float: left;
+}

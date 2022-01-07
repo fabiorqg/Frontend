@@ -1,0 +1,10 @@
+﻿.formatSection {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    color:green;
+    font-family: Calibri;
+    font-size: 2rem;
+
+}
